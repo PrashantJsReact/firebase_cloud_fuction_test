@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularFireFunctions } from '@angular/fire/compat/functions';
-
 @Component({
   selector: 'app-warning-alert',
   templateUrl: './warning-alert.component.html',
@@ -11,14 +10,16 @@ export class WarningAlertComponent implements OnInit {
   constructor(private functions: AngularFireFunctions) {}
 
   ngOnInit(): void {}
+
+
   cloudFunctionHandler() {
-    console.log('You called cloudFunctionHandler');
+    console.log('You clicked cloudFunctionHandler');
     console.log(this.myInput);
-    const callable = this.functions.httpsCallable('createPaymentLink');
-    const obs = callable({ link_id: this.myInput });
+    const createPaymentLink1 = this.functions.httpsCallable('createPaymentLink1');
+    const obs = createPaymentLink1({ "link_id": this.myInput });
     obs.subscribe(async (res) => {
-      // const response = await res.data();
-      console.log(res.data());
+      const response = await res.data();
+      console.log("❤️❤️❤️❤️❤️",response);
       // console.log(response);
     });
     this.myInput = '';
