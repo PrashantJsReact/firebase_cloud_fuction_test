@@ -1,3 +1,8 @@
+/* eslint-disable linebreak-style */
+/* eslint-disable object-curly-spacing */
+/* eslint-disable linebreak-style */
+/* eslint-disable quote-props */
+/* eslint-disable indent */
 "use strict";
 const axios = require("axios").default;
 const functions = require("firebase-functions");
@@ -30,13 +35,14 @@ exports.createPaymentLink = functions
 
       axios.request(options).then((res) => {
         resolve(res.data);
+      }).catch((error) => {
+        reject(error.response.data);
       });
-    }).catch((error) => {
-      reject(error.response.data);
     });
   });
 
 // Cashfree Payment Link Webhook
 exports.getPaymentStatus = functions.https.onRequest((request, response) => {
-  response.send(JSON.stringify(request.body));
+    console.log(JSON.stringify(request.body));
+    response.send(JSON.stringify(request.body));
 });

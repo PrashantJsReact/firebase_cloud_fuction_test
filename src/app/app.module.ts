@@ -38,7 +38,7 @@ import { MatInputModule } from '@angular/material/input';
   ],
   providers: [
     { provide: REGION, useValue: 'asia-southeast1' },
-    { provide: USE_EMULATOR, useValue: ['localhost', 5001] },
+    // { provide: USE_EMULATOR, useValue: ['localhost', 5001] },
   ],
   bootstrap: [AppComponent],
 })

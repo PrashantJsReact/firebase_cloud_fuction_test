@@ -43,5 +43,6 @@ export class WarningAlertComponent implements OnInit {
     obs.subscribe((res) => {
       this.paymentResponse = res;
     });
+    this.myInput = uuidv4();
   }
 }
