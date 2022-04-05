@@ -1,8 +1,15 @@
 <form class="example-form">
   <mat-form-field class="example-full-width" appearance="fill">
     <mat-label>Link id</mat-label>
-    <input matInput placeholder="Enter link_id" [(ngModel)]="myInput" name="first"/>
+    <input
+      matInput
+      placeholder="Enter link_id"
+      [(ngModel)]="myInput"
+      name="first"
+    />
   </mat-form-field>
+  <mat-label>Payment Info</mat-label>
+  {{ paymentResponse | json }}
 </form>
 <button mat-raised-button color="accent" (click)="cloudFunctionHandler()">
   Generate Subscription payment link

@@ -9,11 +9,15 @@ import { SuccessAlertComponent } from './success-alert/success-alert.component';
 import { WarningAlertComponent } from './warning-alert/warning-alert.component';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
-import { AngularFireFunctionsModule } from '@angular/fire/compat/functions';
+import {
+  AngularFireFunctionsModule,
+  REGION,
+  USE_EMULATOR,
+} from '@angular/fire/compat/functions';
 import { environment } from '../environments/environment';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatButtonModule} from '@angular/material/button';
-import {MatInputModule} from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatInputModule } from '@angular/material/input';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +36,10 @@ import {MatInputModule} from '@angular/material/input';
     MatButtonModule,
     MatInputModule,
   ],
-  providers: [],
+  providers: [
+    { provide: REGION, useValue: 'asia-southeast1' },
+    { provide: USE_EMULATOR, useValue: ['localhost', 5001] },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

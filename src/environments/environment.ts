@@ -5,6 +5,7 @@
 export const environment = {
   production: false,
   firebaseConfig: {
+    ssl: false,
     apiKey: 'AIzaSyCLxHTYYgW7tXk0htCKharyCOhiYUVZhHY',
     authDomain: 'test-corpcrs-986f3.firebaseapp.com',
     databaseURL:
@@ -14,7 +15,7 @@ export const environment = {
     messagingSenderId: '618295537291',
     appId: '1:618295537291:web:b6e270feab6fbdc2abee8e',
     measurementId: 'G-CE4EWS8TN4',
-    host: "http://localhost:4200"
+    host: 'localhost:4200',
   },
 };
 
