@@ -560,3 +560,435 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [info] i  functions: Finished "createPaymentLink" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"Finished \"createPaymentLink\" in ~1s"}}
 [debug] [2022-04-05T14:28:12.092Z] [worker-asia-southeast1-createPaymentLink-168f96a6-d939-4c45-88e9-4d4285c90380]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-168f96a6-d939-4c45-88e9-4d4285c90380]: IDLE"}}
 [debug] [2022-04-05T14:28:12.092Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-04-05T14:37:45.921Z] File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-05T14:37:46.935Z] [worker-pool] Shutting down IDLE worker (asia-southeast1-createPaymentLink) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (asia-southeast1-createPaymentLink)"}}
+[debug] [2022-04-05T14:37:46.935Z] [worker-asia-southeast1-createPaymentLink-71885a56-3c8c-4236-9e83-10122fbf43f6]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-71885a56-3c8c-4236-9e83-10122fbf43f6]: FINISHING"}}
+[debug] [2022-04-05T14:37:46.937Z] [worker-pool] Shutting down IDLE worker (asia-southeast1-createPaymentLink) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (asia-southeast1-createPaymentLink)"}}
+[debug] [2022-04-05T14:37:46.937Z] [worker-asia-southeast1-createPaymentLink-168f96a6-d939-4c45-88e9-4d4285c90380]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-168f96a6-d939-4c45-88e9-4d4285c90380]: FINISHING"}}
+[debug] [2022-04-05T14:37:46.948Z] Validating nodejs source
+[debug] [2022-04-05T14:37:49.401Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-05T14:37:49.402Z] Building nodejs source
+[debug] [2022-04-05T14:37:49.402Z] Analyzing nodejs backend spec
+[debug] [2022-04-05T14:37:49.409Z] [worker-asia-southeast1-createPaymentLink-71885a56-3c8c-4236-9e83-10122fbf43f6]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-71885a56-3c8c-4236-9e83-10122fbf43f6]: exited"}}
+[debug] [2022-04-05T14:37:49.410Z] [worker-asia-southeast1-createPaymentLink-71885a56-3c8c-4236-9e83-10122fbf43f6]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-71885a56-3c8c-4236-9e83-10122fbf43f6]: FINISHED"}}
+[debug] [2022-04-05T14:37:49.410Z] [worker-asia-southeast1-createPaymentLink-168f96a6-d939-4c45-88e9-4d4285c90380]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-168f96a6-d939-4c45-88e9-4d4285c90380]: exited"}}
+[debug] [2022-04-05T14:37:49.410Z] [worker-asia-southeast1-createPaymentLink-168f96a6-d939-4c45-88e9-4d4285c90380]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-168f96a6-d939-4c45-88e9-4d4285c90380]: FINISHED"}}
+[debug] [2022-04-05T14:38:16.995Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-04-05T14:38:16.995Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-05T14:38:16.996Z] Accepted request OPTIONS /test-corpcrs-986f3/asia-southeast1/createPaymentLink --> asia-southeast1-createPaymentLink
+[debug] [2022-04-05T14:38:17.001Z] [worker-pool] Cleaned up workers for asia-southeast1-createPaymentLink: 2 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for asia-southeast1-createPaymentLink: 2 --> 0"}}
+[debug] [2022-04-05T14:38:17.024Z] [worker-pool] addWorker(asia-southeast1-createPaymentLink) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(asia-southeast1-createPaymentLink)"}}
+[debug] [2022-04-05T14:38:17.028Z] [worker-pool] Adding worker with key asia-southeast1-createPaymentLink, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key asia-southeast1-createPaymentLink, total=1"}}
+[debug] [2022-04-05T14:38:17.028Z] [worker-pool] submitWork(triggerId=asia-southeast1-createPaymentLink) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=asia-southeast1-createPaymentLink)"}}
+[debug] [2022-04-05T14:38:17.030Z] [worker-asia-southeast1-createPaymentLink-666ceaad-0d64-41c0-979d-2b5c53723a58]: Assigning socketPath: /var/folders/l7/5p0cdy3j3t51hlfzmn5lyckw0000gn/T/fire_emu_53030.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-666ceaad-0d64-41c0-979d-2b5c53723a58]: Assigning socketPath: /var/folders/l7/5p0cdy3j3t51hlfzmn5lyckw0000gn/T/fire_emu_53030.sock"}}
+[debug] [2022-04-05T14:38:17.031Z] [worker-asia-southeast1-createPaymentLink-666ceaad-0d64-41c0-979d-2b5c53723a58]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-666ceaad-0d64-41c0-979d-2b5c53723a58]: BUSY"}}
+[debug] [2022-04-05T14:38:18.849Z] [runtime-status] [53030] Functions runtime initialized. {"cwd":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions","node_version":"14.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] Functions runtime initialized. {\"cwd\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions\",\"node_version\":\"14.17.0\"}"}}
+[debug] [2022-04-05T14:38:18.850Z] [runtime-status] [53030] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] Disabled runtime features: undefined"}}
+[debug] [2022-04-05T14:38:18.853Z] [runtime-status] [53030] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.0.2","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-05T14:38:18.854Z] [runtime-status] [53030] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-05T14:38:18.855Z] [runtime-status] [53030] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-04-05T14:38:18.855Z] [runtime-status] [53030] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-05T14:38:18.956Z] [runtime-status] [53030] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-04-05T14:38:18.956Z] [runtime-status] [53030] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-04-05T14:38:18.957Z] [runtime-status] [53030] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-05T14:38:18.958Z] [runtime-status] [53030] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.0.2","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-05T14:38:18.958Z] [runtime-status] [53030] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-05T14:38:18.959Z] [runtime-status] [53030] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.0.2","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-04-05T14:38:19.086Z] [runtime-status] [53030] initializeApp(DEFAULT) {"storageBucket":"test-corpcrs-986f3.appspot.com","databaseURL":"https://test-corpcrs-986f3.firebaseio.com","projectId":"test-corpcrs-986f3"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] initializeApp(DEFAULT) {\"storageBucket\":\"test-corpcrs-986f3.appspot.com\",\"databaseURL\":\"https://test-corpcrs-986f3.firebaseio.com\",\"projectId\":\"test-corpcrs-986f3\"}"}}
+[debug] [2022-04-05T14:38:19.087Z] [runtime-status] [53030] Beginning invocation function createPaymentLink! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] Beginning invocation function createPaymentLink!"}}
+[info] i  functions: Beginning execution of "createPaymentLink" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"Beginning execution of \"createPaymentLink\""}}
+[debug] [2022-04-05T14:38:19.095Z] [runtime-status] [53030] Running createPaymentLink in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] Running createPaymentLink in signature http"}}
+[debug] [2022-04-05T14:38:19.095Z] [runtime-status] [53030] Attempting to listen to socketPath: /var/folders/l7/5p0cdy3j3t51hlfzmn5lyckw0000gn/T/fire_emu_53030.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] Attempting to listen to socketPath: /var/folders/l7/5p0cdy3j3t51hlfzmn5lyckw0000gn/T/fire_emu_53030.sock"}}
+[debug] [2022-04-05T14:38:19.097Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-05T14:38:19.099Z] [functions] Got req.url=/test-corpcrs-986f3/asia-southeast1/createPaymentLink, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/test-corpcrs-986f3/asia-southeast1/createPaymentLink, mapping to path=/"}}
+[debug] [2022-04-05T14:38:19.107Z] [runtime-status] [53030] Ephemeral server handling OPTIONS request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] Ephemeral server handling OPTIONS request"}}
+[debug] [2022-04-05T14:38:19.113Z] [runtime-status] [53030] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53030] Ephemeral server survived."}}
+[debug] [2022-04-05T14:38:19.115Z] [work-queue] {"queueLength":1,"workRunningCount":1}
+[debug] [2022-04-05T14:38:19.115Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2022-04-05T14:38:19.115Z] Accepted request POST /test-corpcrs-986f3/asia-southeast1/createPaymentLink --> asia-southeast1-createPaymentLink
+[debug] [2022-04-05T14:38:19.121Z] [worker-pool] addWorker(asia-southeast1-createPaymentLink) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(asia-southeast1-createPaymentLink)"}}
+[debug] [2022-04-05T14:38:19.122Z] [worker-pool] Adding worker with key asia-southeast1-createPaymentLink, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key asia-southeast1-createPaymentLink, total=2"}}
+[debug] [2022-04-05T14:38:19.122Z] [worker-pool] submitWork(triggerId=asia-southeast1-createPaymentLink) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=asia-southeast1-createPaymentLink)"}}
+[debug] [2022-04-05T14:38:19.122Z] [worker-asia-southeast1-createPaymentLink-02fb551d-69a8-4b42-9100-ad05fab0b518]: Assigning socketPath: /var/folders/l7/5p0cdy3j3t51hlfzmn5lyckw0000gn/T/fire_emu_53031.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-02fb551d-69a8-4b42-9100-ad05fab0b518]: Assigning socketPath: /var/folders/l7/5p0cdy3j3t51hlfzmn5lyckw0000gn/T/fire_emu_53031.sock"}}
+[debug] [2022-04-05T14:38:19.122Z] [worker-asia-southeast1-createPaymentLink-02fb551d-69a8-4b42-9100-ad05fab0b518]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-02fb551d-69a8-4b42-9100-ad05fab0b518]: BUSY"}}
+[info] i  functions: Finished "createPaymentLink" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"Finished \"createPaymentLink\" in ~1s"}}
+[debug] [2022-04-05T14:38:19.124Z] [worker-asia-southeast1-createPaymentLink-666ceaad-0d64-41c0-979d-2b5c53723a58]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-666ceaad-0d64-41c0-979d-2b5c53723a58]: IDLE"}}
+[debug] [2022-04-05T14:38:19.124Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-05T14:38:20.100Z] [runtime-status] [53031] Functions runtime initialized. {"cwd":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions","node_version":"14.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] Functions runtime initialized. {\"cwd\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions\",\"node_version\":\"14.17.0\"}"}}
+[debug] [2022-04-05T14:38:20.101Z] [runtime-status] [53031] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] Disabled runtime features: undefined"}}
+[debug] [2022-04-05T14:38:20.103Z] [runtime-status] [53031] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.0.2","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-05T14:38:20.104Z] [runtime-status] [53031] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-05T14:38:20.105Z] [runtime-status] [53031] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-04-05T14:38:20.106Z] [runtime-status] [53031] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-05T14:38:20.169Z] [runtime-status] [53031] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-04-05T14:38:20.169Z] [runtime-status] [53031] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-04-05T14:38:20.170Z] [runtime-status] [53031] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-05T14:38:20.171Z] [runtime-status] [53031] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.0.2","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-05T14:38:20.171Z] [runtime-status] [53031] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-05T14:38:20.172Z] [runtime-status] [53031] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.0.2","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-04-05T14:38:20.249Z] [runtime-status] [53031] initializeApp(DEFAULT) {"storageBucket":"test-corpcrs-986f3.appspot.com","databaseURL":"https://test-corpcrs-986f3.firebaseio.com","projectId":"test-corpcrs-986f3"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] initializeApp(DEFAULT) {\"storageBucket\":\"test-corpcrs-986f3.appspot.com\",\"databaseURL\":\"https://test-corpcrs-986f3.firebaseio.com\",\"projectId\":\"test-corpcrs-986f3\"}"}}
+[debug] [2022-04-05T14:38:20.250Z] [runtime-status] [53031] Beginning invocation function createPaymentLink! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] Beginning invocation function createPaymentLink!"}}
+[info] i  functions: Beginning execution of "createPaymentLink" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"Beginning execution of \"createPaymentLink\""}}
+[debug] [2022-04-05T14:38:20.252Z] [runtime-status] [53031] Running createPaymentLink in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] Running createPaymentLink in signature http"}}
+[debug] [2022-04-05T14:38:20.254Z] [runtime-status] [53031] Attempting to listen to socketPath: /var/folders/l7/5p0cdy3j3t51hlfzmn5lyckw0000gn/T/fire_emu_53031.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] Attempting to listen to socketPath: /var/folders/l7/5p0cdy3j3t51hlfzmn5lyckw0000gn/T/fire_emu_53031.sock"}}
+[debug] [2022-04-05T14:38:20.256Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-05T14:38:20.256Z] [functions] Got req.url=/test-corpcrs-986f3/asia-southeast1/createPaymentLink, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/test-corpcrs-986f3/asia-southeast1/createPaymentLink, mapping to path=/"}}
+[debug] [2022-04-05T14:38:20.273Z] [runtime-status] [53031] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] Ephemeral server handling POST request"}}
+[info] >  {"verifications":{"app":"MISSING","auth":"MISSING"},"logging.googleapis.com/labels":{"firebase-log-type":"callable-request-verification"},"severity":"INFO","message":"Callable request verification passed"} {"user":{"verifications":{"app":"MISSING","auth":"MISSING"},"logging.googleapis.com/labels":{"firebase-log-type":"callable-request-verification"},"severity":"INFO","message":"Callable request verification passed"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"verifications\":{\"app\":\"MISSING\",\"auth\":\"MISSING\"},\"logging.googleapis.com/labels\":{\"firebase-log-type\":\"callable-request-verification\"},\"severity\":\"INFO\",\"message\":\"Callable request verification passed\"}"}}
+[info] >  CreatePaymentLink function started... {"user":"CreatePaymentLink function started...","metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"\u001b[90m> \u001b[39m CreatePaymentLink function started..."}}
+[debug] [2022-04-05T14:38:20.279Z] [runtime-status] [53031] No callable functions auth found {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] No callable functions auth found"}}
+[debug] [2022-04-05T14:38:21.100Z] [runtime-status] [53031] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53031] Ephemeral server survived."}}
+[info] i  functions: Finished "createPaymentLink" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"Finished \"createPaymentLink\" in ~1s"}}
+[debug] [2022-04-05T14:38:21.103Z] [worker-asia-southeast1-createPaymentLink-02fb551d-69a8-4b42-9100-ad05fab0b518]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-02fb551d-69a8-4b42-9100-ad05fab0b518]: IDLE"}}
+[debug] [2022-04-05T14:38:21.103Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-04-05T14:41:12.956Z] File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-05T14:41:13.956Z] [worker-pool] Shutting down IDLE worker (asia-southeast1-createPaymentLink) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (asia-southeast1-createPaymentLink)"}}
+[debug] [2022-04-05T14:41:13.956Z] [worker-asia-southeast1-createPaymentLink-666ceaad-0d64-41c0-979d-2b5c53723a58]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-666ceaad-0d64-41c0-979d-2b5c53723a58]: FINISHING"}}
+[debug] [2022-04-05T14:41:13.957Z] [worker-pool] Shutting down IDLE worker (asia-southeast1-createPaymentLink) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (asia-southeast1-createPaymentLink)"}}
+[debug] [2022-04-05T14:41:13.957Z] [worker-asia-southeast1-createPaymentLink-02fb551d-69a8-4b42-9100-ad05fab0b518]: FINISHING {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-02fb551d-69a8-4b42-9100-ad05fab0b518]: FINISHING"}}
+[debug] [2022-04-05T14:41:13.958Z] Validating nodejs source
+[debug] [2022-04-05T14:41:16.751Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-05T14:41:16.752Z] Building nodejs source
+[debug] [2022-04-05T14:41:16.752Z] Analyzing nodejs backend spec
+[debug] [2022-04-05T14:41:16.757Z] [worker-asia-southeast1-createPaymentLink-666ceaad-0d64-41c0-979d-2b5c53723a58]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-666ceaad-0d64-41c0-979d-2b5c53723a58]: exited"}}
+[debug] [2022-04-05T14:41:16.757Z] [worker-asia-southeast1-createPaymentLink-666ceaad-0d64-41c0-979d-2b5c53723a58]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-666ceaad-0d64-41c0-979d-2b5c53723a58]: FINISHED"}}
+[debug] [2022-04-05T14:41:16.757Z] [worker-asia-southeast1-createPaymentLink-02fb551d-69a8-4b42-9100-ad05fab0b518]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-02fb551d-69a8-4b42-9100-ad05fab0b518]: exited"}}
+[debug] [2022-04-05T14:41:16.757Z] [worker-asia-southeast1-createPaymentLink-02fb551d-69a8-4b42-9100-ad05fab0b518]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-02fb551d-69a8-4b42-9100-ad05fab0b518]: FINISHED"}}
+[debug] [2022-04-05T14:42:13.493Z] File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-05T14:42:14.496Z] Validating nodejs source
+[debug] [2022-04-05T14:42:17.124Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-05T14:42:17.125Z] Building nodejs source
+[debug] [2022-04-05T14:42:17.125Z] Analyzing nodejs backend spec
+[debug] [2022-04-05T14:43:00.681Z] File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-05T14:43:01.683Z] Validating nodejs source
+[debug] [2022-04-05T14:43:03.916Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-05T14:43:03.916Z] Building nodejs source
+[debug] [2022-04-05T14:43:03.917Z] Analyzing nodejs backend spec
+[debug] [2022-04-05T14:44:15.310Z] File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-05T14:44:16.313Z] Validating nodejs source
+[debug] [2022-04-05T14:44:18.176Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-05T14:44:18.176Z] Building nodejs source
+[debug] [2022-04-05T14:44:18.176Z] Analyzing nodejs backend spec
+[debug] [2022-04-05T14:44:24.476Z] File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-05T14:44:25.479Z] Validating nodejs source
+[debug] [2022-04-05T14:44:27.055Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-05T14:44:27.056Z] Building nodejs source
+[debug] [2022-04-05T14:44:27.056Z] Analyzing nodejs backend spec
+[debug] [2022-04-05T14:44:49.824Z] File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-05T14:44:50.825Z] Validating nodejs source
+[debug] [2022-04-05T14:44:52.642Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-05T14:44:52.643Z] Building nodejs source
+[debug] [2022-04-05T14:44:52.643Z] Analyzing nodejs backend spec
+[debug] [2022-04-05T14:44:59.030Z] File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-05T14:45:00.032Z] Validating nodejs source
+[debug] [2022-04-05T14:45:01.633Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-05T14:45:01.633Z] Building nodejs source
+[debug] [2022-04-05T14:45:01.633Z] Analyzing nodejs backend spec
+[info] ✔  functions[us-central1-getPaymentStatus]: http function initialized (http://localhost:5001/test-corpcrs-986f3/us-central1/getPaymentStatus). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/test-corpcrs-986f3/us-central1/getPaymentStatus)."}}
+[debug] [2022-04-05T14:45:38.569Z] File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/index.js changed, reloading triggers"}}
+[debug] [2022-04-05T14:45:39.570Z] Validating nodejs source
+[debug] [2022-04-05T14:45:41.238Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-05T14:45:41.238Z] Building nodejs source
+[debug] [2022-04-05T14:45:41.238Z] Analyzing nodejs backend spec
+[debug] [2022-04-05T14:45:51.403Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-04-05T14:45:51.403Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-05T14:45:51.403Z] Accepted request OPTIONS /test-corpcrs-986f3/asia-southeast1/createPaymentLink --> asia-southeast1-createPaymentLink
+[debug] [2022-04-05T14:45:51.404Z] [worker-pool] Cleaned up workers for asia-southeast1-createPaymentLink: 2 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for asia-southeast1-createPaymentLink: 2 --> 0"}}
+[debug] [2022-04-05T14:45:51.408Z] [worker-pool] addWorker(asia-southeast1-createPaymentLink) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(asia-southeast1-createPaymentLink)"}}
+[debug] [2022-04-05T14:45:51.408Z] [worker-pool] Adding worker with key asia-southeast1-createPaymentLink, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key asia-southeast1-createPaymentLink, total=1"}}
+[debug] [2022-04-05T14:45:51.408Z] [worker-pool] submitWork(triggerId=asia-southeast1-createPaymentLink) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=asia-southeast1-createPaymentLink)"}}
+[debug] [2022-04-05T14:45:51.409Z] [worker-asia-southeast1-createPaymentLink-f54389b7-1f47-4f89-8d51-fa3f4f9cb527]: Assigning socketPath: /var/folders/l7/5p0cdy3j3t51hlfzmn5lyckw0000gn/T/fire_emu_53376.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-f54389b7-1f47-4f89-8d51-fa3f4f9cb527]: Assigning socketPath: /var/folders/l7/5p0cdy3j3t51hlfzmn5lyckw0000gn/T/fire_emu_53376.sock"}}
+[debug] [2022-04-05T14:45:51.409Z] [worker-asia-southeast1-createPaymentLink-f54389b7-1f47-4f89-8d51-fa3f4f9cb527]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-f54389b7-1f47-4f89-8d51-fa3f4f9cb527]: BUSY"}}
+[debug] [2022-04-05T14:45:52.874Z] [runtime-status] [53376] Functions runtime initialized. {"cwd":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions","node_version":"14.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] Functions runtime initialized. {\"cwd\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions\",\"node_version\":\"14.17.0\"}"}}
+[debug] [2022-04-05T14:45:52.875Z] [runtime-status] [53376] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] Disabled runtime features: undefined"}}
+[debug] [2022-04-05T14:45:52.877Z] [runtime-status] [53376] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.0.2","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-05T14:45:52.878Z] [runtime-status] [53376] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-05T14:45:52.879Z] [runtime-status] [53376] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-04-05T14:45:52.879Z] [runtime-status] [53376] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-05T14:45:52.956Z] [runtime-status] [53376] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-04-05T14:45:52.956Z] [runtime-status] [53376] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-04-05T14:45:52.957Z] [runtime-status] [53376] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-05T14:45:52.957Z] [runtime-status] [53376] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.0.2","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-05T14:45:52.958Z] [runtime-status] [53376] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-05T14:45:52.958Z] [runtime-status] [53376] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.0.2","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-04-05T14:45:53.059Z] [runtime-status] [53376] initializeApp(DEFAULT) {"storageBucket":"test-corpcrs-986f3.appspot.com","databaseURL":"https://test-corpcrs-986f3.firebaseio.com","projectId":"test-corpcrs-986f3"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] initializeApp(DEFAULT) {\"storageBucket\":\"test-corpcrs-986f3.appspot.com\",\"databaseURL\":\"https://test-corpcrs-986f3.firebaseio.com\",\"projectId\":\"test-corpcrs-986f3\"}"}}
+[debug] [2022-04-05T14:45:53.060Z] [runtime-status] [53376] Beginning invocation function createPaymentLink! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] Beginning invocation function createPaymentLink!"}}
+[info] i  functions: Beginning execution of "createPaymentLink" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"Beginning execution of \"createPaymentLink\""}}
+[debug] [2022-04-05T14:45:53.060Z] [runtime-status] [53376] Running createPaymentLink in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] Running createPaymentLink in signature http"}}
+[debug] [2022-04-05T14:45:53.063Z] [runtime-status] [53376] Attempting to listen to socketPath: /var/folders/l7/5p0cdy3j3t51hlfzmn5lyckw0000gn/T/fire_emu_53376.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] Attempting to listen to socketPath: /var/folders/l7/5p0cdy3j3t51hlfzmn5lyckw0000gn/T/fire_emu_53376.sock"}}
+[debug] [2022-04-05T14:45:53.064Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-05T14:45:53.064Z] [functions] Got req.url=/test-corpcrs-986f3/asia-southeast1/createPaymentLink, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/test-corpcrs-986f3/asia-southeast1/createPaymentLink, mapping to path=/"}}
+[debug] [2022-04-05T14:45:53.068Z] [runtime-status] [53376] Ephemeral server handling OPTIONS request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] Ephemeral server handling OPTIONS request"}}
+[debug] [2022-04-05T14:45:53.072Z] [runtime-status] [53376] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53376] Ephemeral server survived."}}
+[debug] [2022-04-05T14:45:53.073Z] [work-queue] {"queueLength":1,"workRunningCount":1}
+[debug] [2022-04-05T14:45:53.073Z] [work-queue] {"queueLength":0,"workRunningCount":2}
+[debug] [2022-04-05T14:45:53.073Z] Accepted request POST /test-corpcrs-986f3/asia-southeast1/createPaymentLink --> asia-southeast1-createPaymentLink
+[debug] [2022-04-05T14:45:53.077Z] [worker-pool] addWorker(asia-southeast1-createPaymentLink) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(asia-southeast1-createPaymentLink)"}}
+[debug] [2022-04-05T14:45:53.078Z] [worker-pool] Adding worker with key asia-southeast1-createPaymentLink, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key asia-southeast1-createPaymentLink, total=2"}}
+[debug] [2022-04-05T14:45:53.078Z] [worker-pool] submitWork(triggerId=asia-southeast1-createPaymentLink) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=asia-southeast1-createPaymentLink)"}}
+[debug] [2022-04-05T14:45:53.078Z] [worker-asia-southeast1-createPaymentLink-cf539504-eeaa-4d16-ac3d-7be5961753b0]: Assigning socketPath: /var/folders/l7/5p0cdy3j3t51hlfzmn5lyckw0000gn/T/fire_emu_53377.sock {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-cf539504-eeaa-4d16-ac3d-7be5961753b0]: Assigning socketPath: /var/folders/l7/5p0cdy3j3t51hlfzmn5lyckw0000gn/T/fire_emu_53377.sock"}}
+[debug] [2022-04-05T14:45:53.078Z] [worker-asia-southeast1-createPaymentLink-cf539504-eeaa-4d16-ac3d-7be5961753b0]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-cf539504-eeaa-4d16-ac3d-7be5961753b0]: BUSY"}}
+[info] i  functions: Finished "createPaymentLink" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"Finished \"createPaymentLink\" in ~1s"}}
+[debug] [2022-04-05T14:45:53.079Z] [worker-asia-southeast1-createPaymentLink-f54389b7-1f47-4f89-8d51-fa3f4f9cb527]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-f54389b7-1f47-4f89-8d51-fa3f4f9cb527]: IDLE"}}
+[debug] [2022-04-05T14:45:53.079Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-04-05T14:45:53.879Z] [runtime-status] [53377] Functions runtime initialized. {"cwd":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions","node_version":"14.17.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] Functions runtime initialized. {\"cwd\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions\",\"node_version\":\"14.17.0\"}"}}
+[debug] [2022-04-05T14:45:53.881Z] [runtime-status] [53377] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] Disabled runtime features: undefined"}}
+[debug] [2022-04-05T14:45:53.882Z] [runtime-status] [53377] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.0.2","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-05T14:45:53.883Z] [runtime-status] [53377] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-05T14:45:53.884Z] [runtime-status] [53377] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-04-05T14:45:53.884Z] [runtime-status] [53377] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-05T14:45:53.935Z] [runtime-status] [53377] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-04-05T14:45:53.935Z] [runtime-status] [53377] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
+[debug] [2022-04-05T14:45:53.936Z] [runtime-status] [53377] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-05T14:45:53.936Z] [runtime-status] [53377] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.0.2","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2022-04-05T14:45:53.937Z] [runtime-status] [53377] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.20.0","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.20.0\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-functions/lib/index.js\"}"}}
+[debug] [2022-04-05T14:45:53.937Z] [runtime-status] [53377] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.0.2","resolution":"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.0.2\",\"resolution\":\"/Users/prateekjain/Documents/_projects/firebase_cloud_fuction_test/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2022-04-05T14:45:53.996Z] [runtime-status] [53377] initializeApp(DEFAULT) {"storageBucket":"test-corpcrs-986f3.appspot.com","databaseURL":"https://test-corpcrs-986f3.firebaseio.com","projectId":"test-corpcrs-986f3"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] initializeApp(DEFAULT) {\"storageBucket\":\"test-corpcrs-986f3.appspot.com\",\"databaseURL\":\"https://test-corpcrs-986f3.firebaseio.com\",\"projectId\":\"test-corpcrs-986f3\"}"}}
+[debug] [2022-04-05T14:45:53.997Z] [runtime-status] [53377] Beginning invocation function createPaymentLink! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] Beginning invocation function createPaymentLink!"}}
+[info] i  functions: Beginning execution of "createPaymentLink" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"Beginning execution of \"createPaymentLink\""}}
+[debug] [2022-04-05T14:45:53.998Z] [runtime-status] [53377] Running createPaymentLink in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] Running createPaymentLink in signature http"}}
+[debug] [2022-04-05T14:45:53.999Z] [runtime-status] [53377] Attempting to listen to socketPath: /var/folders/l7/5p0cdy3j3t51hlfzmn5lyckw0000gn/T/fire_emu_53377.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] Attempting to listen to socketPath: /var/folders/l7/5p0cdy3j3t51hlfzmn5lyckw0000gn/T/fire_emu_53377.sock"}}
+[debug] [2022-04-05T14:45:54.001Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-04-05T14:45:54.001Z] [functions] Got req.url=/test-corpcrs-986f3/asia-southeast1/createPaymentLink, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/test-corpcrs-986f3/asia-southeast1/createPaymentLink, mapping to path=/"}}
+[debug] [2022-04-05T14:45:54.016Z] [runtime-status] [53377] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] Ephemeral server handling POST request"}}
+[info] >  {"verifications":{"app":"MISSING","auth":"MISSING"},"logging.googleapis.com/labels":{"firebase-log-type":"callable-request-verification"},"severity":"INFO","message":"Callable request verification passed"} {"user":{"verifications":{"app":"MISSING","auth":"MISSING"},"logging.googleapis.com/labels":{"firebase-log-type":"callable-request-verification"},"severity":"INFO","message":"Callable request verification passed"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"verifications\":{\"app\":\"MISSING\",\"auth\":\"MISSING\"},\"logging.googleapis.com/labels\":{\"firebase-log-type\":\"callable-request-verification\"},\"severity\":\"INFO\",\"message\":\"Callable request verification passed\"}"}}
+[info] >  CreatePaymentLink function started... {"user":"CreatePaymentLink function started...","metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"\u001b[90m> \u001b[39m CreatePaymentLink function started..."}}
+[debug] [2022-04-05T14:45:54.019Z] [runtime-status] [53377] No callable functions auth found {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] No callable functions auth found"}}
+[debug] [2022-04-05T14:45:55.024Z] [runtime-status] [53377] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"[runtime-status] [53377] Ephemeral server survived."}}
+[info] i  functions: Finished "createPaymentLink" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"asia-southeast1-createPaymentLink"},"extension":{},"message":"Finished \"createPaymentLink\" in ~1s"}}
+[debug] [2022-04-05T14:45:55.027Z] [worker-asia-southeast1-createPaymentLink-cf539504-eeaa-4d16-ac3d-7be5961753b0]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-asia-southeast1-createPaymentLink-cf539504-eeaa-4d16-ac3d-7be5961753b0]: IDLE"}}
+[debug] [2022-04-05T14:45:55.027Z] [work-queue] {"queueLength":0,"workRunningCount":0}

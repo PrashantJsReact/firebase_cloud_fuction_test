@@ -4,6 +4,11 @@
 
 export const environment = {
   production: false,
+  cashFree: {
+    url: 'https://sandbox.cashfree.com/pg/links',
+    'x-client-id': '137262985dc6f60df8c89d6a5a262731', // from UI
+    'x-client-secret': '71909436af48eba30ae3098d14d8c3f110e63b52', // from UI
+  },
   firebaseConfig: {
     ssl: false,
     apiKey: 'AIzaSyCLxHTYYgW7tXk0htCKharyCOhiYUVZhHY',
