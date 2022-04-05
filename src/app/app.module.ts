@@ -30,7 +30,7 @@ import {MatInputModule} from '@angular/material/input';
     AngularFireFunctionsModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatInputModule
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
